@@ -1,0 +1,90 @@
+body {
+    background-color: #95887f;
+    font-family: aot, sans-serif;
+	font-size-adjust: 0.7;
+    font-size: 25;
+}
+    
+@font-face { 
+	font-family: aot; src: url(EnchantedLand.otf); 
+}
+        
+.container {
+    max-width: 80%
+}
+        
+.carousel-item {
+    height: 32rem;
+    background: black;
+    color: white;
+    position: relative;
+}
+        
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+        
+        .btn {
+            font-size: 25;
+            background-color: #012271; 
+            color: white;
+        }
+        
+        .btn:hover {
+            background-color: #0238BB; 
+            color: gray;
+        }
+        
+        .card {
+            padding: 10px; 
+            background-color: #796e66; 
+            border-style: none;
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+		
+        .table-curved {
+            width: 100%;
+        }
+        
+        .table-curved td {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-style: none;
+            color: white;
+            background-color: #144b14;
+            border-bottom: 10px solid #796e66;
+        }
+        
+        .table-curved tr:first-child td:first-child { 
+            border-top-left-radius: 5px; 
+            border-bottom-left-radius: 10px; 
+        }
+
+        .table-curved tr:first-child td:last-child { 
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 10px; 
+        }
+
+        .table-curved tr:last-child td:first-child { 
+            border-top-left-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+        }
+
+        .table-curved tr:last-child td:last-child { 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+        }
+        
+        .table-curved tr:hover td{
+            background-color: #1c711c;
+            color: gray;
+        }

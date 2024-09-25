@@ -1,0 +1,79 @@
+<?php
+	require_once 'config.php';
+
+	try {
+
+
+
+
+	$query = $db->query("SELECT uo.*, (SELECT COUNT(*) FROM Scores ui WHERE (ui.score, -ui.ts) >= (uo.score, -uo.ts)) AS rank FROM Scores uo WHERE name = '$politestring';");
+
+
+
+
+
+		//Here's our query to grab a rank.
+        	//$query = "SELECT uo.*, (SELECT COUNT(*) FROM Scores ui WHERE (ui.score, -ui.ts) >= (uo.score, -uo.ts)) AS rank FROM Score uo WHERE name = '$politestring';"; $queryprep = 
+        	//$db->prepare($query); $queryprep->bindParam('score', $score);
+        	//$queryprep->execute();		
+		$name = "";
+		$error = "";
+
+		foreach($_GET as $key=>$value){
+			$name = $value;
+		}
+
+		$db = new PDO("mysql:host=$host;dbname=" . $db_name . ';charset=utf8', $db_user, $db_pass);
+		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		//$query2 = $db->prepare("SELECT * FROM Scores WHERE name = '" . $name . "'");
+		$query2 = $db->prepare("SELECT uo.*, (SELECT COUNT(*) FROM Scores ui WHERE (ui.score, -ui.ts) >= (uo.score, -uo.ts)) AS rank FROM Scores WHERE name = '$politestring';"; $query")
+		$result2 = $query2->execute();
+
+		$count2 = $query2->rowCount();
+		if($count2 > 0)
+		{
+			$data = $query2->fetch(PDO::FETCH_ASSOC);
+		} else {
+			$error = "false";
+		}
+	} catch (PDOException $e) {
+		die("Could not connect to the database $dbname :" . $e->getMessage());
+	}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Player search | Attack on Score</title>
+	<link rel="stylesheet" type="text/css" href="login/css/bootstrap.min.css">
+</head>
+<body>
+<div>
+	<form action="index.php" method="post">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<?php  
+						if(isset($name))  
+						{  
+							if($error == "false")  
+							{  
+								echo '<h1>You searched for <u>' . $name . '</u></h1>';   
+								echo '<label class="info"> User does not exist </label> <br>';
+							} else {
+								echo '<h1>You searched for <u>' . $name . '</u></h1>';   
+								echo '<label class="info"> Score: ' . $data["score"] . '</label> <br>';  
+								echo '<label class="info"> Score date: ' . $data["ts"] . '</label>';
+							}
+						}  
+					?>  
+					<hr class="mb-3">
+					<input class="btn btn-primary" type="button" value="back" onclick="window.location.href='http://45.81.233.116/'">
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+</body>
+</html>
+</html>

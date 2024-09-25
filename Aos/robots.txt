@@ -1,0 +1,17 @@
+# attackonscore.com/robots.txt
+# Tell Google not to crawl any URLs that are not intendet to,
+# because they won't be useful in Google Search results.
+User-agent: googlebot
+Disallow: /images/
+Disallow: /aoslauncher/
+Disallow: /include/
+Disallow: /404.php/
+Disallow: /addscore.php/
+Disallow: /config.php/
+Disallow: /aoslauncher/
+Disallow: /aoslauncher/
+Disallow: /getrank.php/
+Disallow: /indextest.php/
+Disallow: /login.php/
+Disallow: /search.pnp/
+Disallow: /topscores.php/

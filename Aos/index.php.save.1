@@ -1,0 +1,214 @@
+<?php
+	require_once 'config.php';
+
+	try {
+    $pdo = new PDO("mysql:host=$host;dbname=" . $db_name . ';charset=utf8', $db_user, $db_pass);
+
+    $sql = 'SELECT name, score FROM Scores ORDER BY score DESC, ts ASC LIMIT 10';
+
+    $q = $pdo->query($sql);
+    $q->setFetchMode(PDO::FETCH_ASSOC);
+	
+	if(isset($_POST['create'])){
+				$name = $_POST['name'];
+				header("Location: search.php?name=" . $name);
+			}
+	
+	} catch (PDOException $e) {
+		die("Could not connect to the database $dbname :" . $e->getMessage());
+	}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootsrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- own style -->
+    <link rel="sytlesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>Attack on Score</title>
+</head>
+<body>
+	<style>
+        body {
+            background-color: #95887f;
+        }
+        
+        .container {
+            max-width: 80%
+        }
+        
+        .carousel-item {
+            height: 32rem;
+            background: black;
+            color: white;
+            position: relative;
+        }
+        
+        .overlay-image {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            background-position: center;
+            background-size: cover;
+            filter: blur(6px);
+            -webkit-filter: blur(6px);
+        }
+		
+        .table-curved {
+            width: 100%;
+        }
+        
+        .table-curved td {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-style: none;
+            color: white;
+            background-color: #144b14;
+            border-bottom: 10px solid #796e66;
+        }
+        
+        .table-curved tr:first-child td:first-child { 
+            border-top-left-radius: 5px; 
+            border-bottom-left-radius: 10px; 
+        }
+
+        .table-curved tr:first-child td:last-child { 
+            border-top-right-radius: 5px; 
+            border-bottom-right-radius: 10px; 
+        }
+
+        .table-curved tr:last-child td:first-child { 
+            border-top-left-radius: 10px; 
+            border-bottom-left-radius: 10px; 
+        }
+
+        .table-curved tr:last-child td:last-child { 
+            border-top-right-radius: 10px; 
+            border-bottom-right-radius: 10px; 
+        }
+        
+        .table-curved tr:hover td{
+            background-color: #1c711c;
+            color: gray;
+        }
+        
+		footer {
+			top: 100px;
+		}
+    </style>
+    
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: #144b14">
+        <div class="container">
+            <img class="navbar-brand" src="images/attackonscorelogo.png" style="width: 50%; max-width: 300px;" alt="Attack on Score">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="top100.php" class="nav-link">top 100</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a href="https://mc-host24.de/donate/mcvanilla" class="nav-link">Donate</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a href="login" class="nav-link">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- search bar -->
+    
+    
+    <!-- carousel news -->
+    <div id="Carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#Carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#Carousel" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner text-center">
+            <div class="carousel-item active" id="slider" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="overlay-image" style="background-image: url(images/slide1.png)"></div>
+                <div class="container" style="position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 50px;">
+                    <h1>Build 5v5 is out.</h1>
+                    <p>Download it here:</p>
+                    <a href="https://slavkaskola.itch.io/aot-vr-slavka" class="btn btn-md" style="background-color: #012271; color: white;">Download</a>
+                </div>
+            </div>
+
+            <div class="carousel-item" id="slider" data-bs-ride="carousel" data-bs-interval="7000">
+                <div class="overlay-image" style="background-image: url(images/slide2.jpeg)"></div>
+                <div class="container" style="position: absolute; bottom: 0; left: 0; right: 0; padding-bottom: 50px;">
+                    <h1>Online leaderboard added to the game.</h1>
+                    <p>Create an account now:</p>
+                    <a href="signup" class="btn btn-md" style="background-color: #012271; color: white;">Sign up</a>
+                </div>
+            </div>
+            
+            <a href="#Carousel" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a href="#Carousel" class="carousel-control-next" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </div>
+	
+    <div class="container" id="container">
+		<form action="index.php" method="post" style="padding: 50px; padding-left: 0px;">
+			<div class="row">
+				<div class="col-sm-4">
+					<p>Search for a player and view his stats.</p>
+					<input class="btn btn-primary" style="background-color:white; color:black;" type="text" name="name" required>
+					<input class="btn" type="submit" name="create" value="Search Player" style="background-color: #012271; color: white;">
+				</div>
+			</div>
+		</form>
+		<input class="btn" type="submit" value="Sign Up" onclick="window.location.href='http://45.81.233.116/signup/'" style="background-color: #012271; color: white;">
+		<input class="btn" type="submit" value="Sign In" onclick="window.location.href='http://45.81.233.116/login/'" style="background-color: #012271; color: white;">
+	</div>
+
+<!-- Search for player -->
+
+    <!-- top 10 players -->
+    <div class="container card text-center" style="padding: 10px; top: 50px; background-color: #796e66; border-style: none;">
+        <h1>Top 10 players</h1>
+        <table class="table-curved">
+            <thead>
+                <th>rank</th>
+                <th>username</th>
+                <th>titan kills</th>
+            </thead>
+            <tbody>
+				<?php $i=1; while ($row = $q->fetch()): ?>
+                    <tr style="border: none;" onclick="window.location.href='http://45.81.233.116/search.php?name=<?php echo htmlspecialchars($row['name']) ?>'">
+						<td><?php echo htmlspecialchars($i) ?></td>
+                        <td><?php echo htmlspecialchars($row['name']) ?></td>
+                        <td><?php echo htmlspecialchars($row['score']); $i++;?></td>
+                    </tr>
+                <?php endwhile; ?>
+            </tbody>
+        </table>
+    </div>
+    
+	<!-- footer -->
+    <footer class="container-fluid p-4 text-white text-center position-relative" style="background-color: #144b14">
+        <div class="container-fluid">
+            <p>Attack on Score was made by Linus Ludwig</p>
+            <p>The Attack on Titan franchise and characters are not owned by me and belong to their copyright holders.</p>
+        </div>
+    </footer>
+    <!-- Bootsrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

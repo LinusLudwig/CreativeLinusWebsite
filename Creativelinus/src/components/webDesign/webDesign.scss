@@ -1,0 +1,28 @@
+.webDesign {
+    width: 100%;
+
+    position: relative;
+
+    background: linear-gradient( rgb(48, 0, 0, 0.2) 0%, rgba(38, 0, 255, 0.2) 100%);
+
+    .bg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-image: url(/resource/websiteprevAnim/mask.webp), linear-gradient( rgb(48, 0, 0, 1) 0%, rgba(38, 0, 255, 1) 100%);
+        background-position: cover, cover;
+    }
+    
+    .titleWeb {
+        position: absolute;
+        width: 100%;
+        height: 200vh;
+        font-size: 50rem;
+        font-weight: 900;
+    }
+    
+    .scrollAnimContainer {
+        width: 100%;
+        height: 100%;
+    }
+}

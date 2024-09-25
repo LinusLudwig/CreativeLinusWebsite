@@ -1,0 +1,53 @@
+.slideshow  {
+    height: 155vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1; 
+
+    .vignette {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient( circle, transparent 50%, black 100%);
+    }
+    
+    .arrows {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        position: absolute;
+        z-index: 1;
+        color: white;
+        font-size: 48px;
+        cursor: pointer;
+    }
+    
+    .slideshowAnim {
+        position: absolute;
+        bottom: 400px;
+        height: 100%;
+        transition: none;
+
+        .sliderContainer {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            transition: transform ease-out 0.45s;
+    
+            .slide{
+                height: 100%;
+                width: 100%;
+                background-Position: center;
+                background-Size: cover;
+            }
+        }
+    }
+
+}

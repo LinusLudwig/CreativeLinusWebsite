@@ -1,0 +1,33 @@
+.carousel-indicators button[data-bs-target]{
+    background-color: transparent;
+    width: 100%;
+    max-width: 80px;
+}
+
+.carousel-indicators button[data-bs-target]:not(.active){
+    opacity: 0.5;
+}
+  
+.carousel-indicators button[data-bs-target].active img {
+    border: 2px solid white;  
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    height: 60px;
+    width: 80px;
+    opacity: 1;
+    background-image: url('/resource/icons8-chevron-right-96.png');
+}
+  
+.carousel-control-prev,.carousel-control-next {
+    width: 80px;
+}
+
+.carousel-control-prev-icon {
+    transform: scaleX(-1);
+}
+  
+.carousel-item-next,.carousel-item-prev,.carousel-item.active {
+    display:flex; 
+    height:100%;
+}

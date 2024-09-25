@@ -1,0 +1,37 @@
+Hier finden Sie unsere Analyseergebnisse.
+Damit Ihre Webseite wieder wie gewohnt funktioniert müssen Sie nach erfolgter Bereinigung die Dateirechte wieder auf 604 ändern.
+
+Folgende Dateien wurden aller Wahrscheinlichkeit nach von Dritten hochgeladen.
+Bitte überpruefen Sie diese Dateien und löschen Sie diese gegebenenfalls.
+~/RulesRule-atom.php
+
+Folgende Dateien wurden aller Wahrscheinlichkeit nach von Dritten modifiziert.
+Bitte überpruefen Sie diese Dateien und laden Sie diese gegebenenfalls aus einem nicht infizierten Backup erneut auf Ihren Webspace.
+~/NEU/fcl-core.php
+~/ie7only-mv.php
+~/NEU/req-16.php
+~/RulesRule-atom.php
+~/critical-i18n.php
+~/disabled-lang.php
+~/lo_la-rpcs.php
+~/options-file.php
+~/media-popup-bak.php
+~/Function-ok.php
+~/levels.min.php
+~/combobox-ui.php
+~/forms-rpcs.php
+~/sort_both-zip.php
+~/Source-bak.php
+~/410-32.php
+~/hits-lang.php
+~/NEU/Salsa20-gz.php
+~/message-api.php
+~/jinja2-rpc.php
+~/constants-mv.php
+~/NEU/Diff-zip.php
+~/event-bak.php
+~/NEU/icon_eek.vcf.php
+~/NEU/page_help-xml.php
+~/mail-tar.php
+~/string-rtl.php
+

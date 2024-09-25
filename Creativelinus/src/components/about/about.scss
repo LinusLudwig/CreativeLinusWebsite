@@ -1,0 +1,95 @@
+.about {
+    height: 150vh;
+
+    background: linear-gradient(45deg, #0A0013 0%, #26004A 100%);
+    box-shadow: inset 0px 0px 50px 5px rgb(0, 0, 0);
+
+    .bg {
+        position: absolute;
+
+        width: 100%;	
+        height: 150vh;
+        background: url('/resource/iconBG.webp');
+        background-size: 20vh;
+        mix-blend-mode: color-burn;
+        opacity: 0.25;
+
+    }
+
+    .contentWrapper {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 1366px;
+
+        .biography {
+            height: auto;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 100px;
+
+            .text {
+                gap: 25px;
+                display: flex;
+                flex-direction: column;
+
+                h1 {
+                    font-size: 4rem;
+                }
+
+                h2 {
+                    margin-top: 20px;
+                }
+    
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+    
+            .portrait {
+                min-width: 200px;
+                width: 50%;
+                height: auto;
+                filter: drop-shadow(0px 0px 20px rgb(0, 0, 0));
+            }
+        }
+    }
+
+    .contentWrapper > * {
+        border-radius: 40px;
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 1));
+        padding: 50px;
+        margin: 50px;
+        text-align: center;
+        min-width: 800px;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: 400;
+            transition: font-size 0.2s ease-in-out;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        a:hover {
+            font-size: 2.5rem;
+        }
+    }
+}

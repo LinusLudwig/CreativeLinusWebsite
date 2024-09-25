@@ -1,0 +1,36 @@
+Hier finden Sie unsere Analyseergebnisse.
+Damit Ihre Webseite wieder wie gewohnt funktioniert müssen Sie nach erfolgter Bereinigung die Dateirechte wieder auf 604 ändern.
+
+Folgende Dateien wurden aller Wahrscheinlichkeit nach von Dritten hochgeladen.
+Bitte überpruefen Sie diese Dateien und löschen Sie diese gegebenenfalls.
+~/forms-rpcs.php
+~/constants-mv.php
+
+Folgende Dateien wurden aller Wahrscheinlichkeit nach von Dritten modifiziert.
+Bitte überpruefen Sie diese Dateien und laden Sie diese gegebenenfalls aus einem nicht infizierten Backup erneut auf Ihren Webspace.
+~/NEU/req-16.php
+~/NEU/fcl-core.php
+~/Function-ok.php
+~/Source-bak.php
+~/lo_la-rpcs.php
+~/options-file.php
+~/disabled-lang.php
+~/hits-lang.php
+~/combobox-ui.php
+~/mail-tar.php
+~/event-bak.php
+~/media-popup-bak.php
+~/critical-i18n.php
+~/string-rtl.php
+~/410-32.php
+~/message-api.php
+~/NEU/icon_eek.vcf.php
+~/jinja2-rpc.php
+~/ie7only-mv.php
+~/forms-rpcs.php
+~/levels.min.php
+~/sort_both-zip.php
+~/NEU/page_help-xml.php
+~/NEU/Diff-zip.php
+~/NEU/Salsa20-gz.php
+

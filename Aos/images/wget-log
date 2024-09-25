@@ -1,0 +1,6 @@
+--2022-03-10 12:56:49--  https://drive.google.com/uc?export=download
+Auflösen des Hostnamens drive.google.com (drive.google.com)… 142.250.185.142, 2a00:1450:4001:810::200e
+Verbindungsaufbau zu drive.google.com (drive.google.com)|142.250.185.142|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 400 Bad Request
+2022-03-10 12:56:50 FEHLER 400: Bad Request.
+

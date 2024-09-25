@@ -1,0 +1,72 @@
+<script>
+	function hideDivs() {
+		document.getElementById('dropdownanim').style.display='none';
+		document.getElementById('dropdownanimspacer').style.display='none';
+	}
+</script>
+
+<div class="wrapper_outer">
+	<div class="wrapper opacity-anim">
+		
+	    <!-- Old website link 
+		<div class="dropdownanimwrapper" id="dropdownanim">
+			<div class="oldlink dropdownanim">
+				zur alten Website? <a style="margin-left: 10px;" href="https://www.uzg-transporte.de">Hier Klicken</a>
+				<button style="margin-right: 50px; float: right; background: none; border: none; font-size: 200% !important; color: white; " onclick="hideDivs()">&times;</button>
+			</div>
+		</div>
+		<div style="height: 50px;" id="dropdownanimspacer"></div>
+		-->
+
+		<script>
+			fetch('/include/getRating.php')
+				.then(response => response.json())
+				.then(data => {
+					document.getElementById('rating').innerHTML = data.rating;
+					document.getElementById('ratingCount').innerHTML = data.userRatingCount;
+				})
+		</script>
+
+		<!-- Head part -->
+		<div class="top-anim container-fluid text-center mx-0">
+			<div class="px-2 pt-3 row align-items-center" style="background-color: white;">
+				<div class="col-md-4 col-12 order-3 order-md-1">
+					<ul class="list-unstyled m-0 text-md-start text-sm-center">
+						<li class="contact" onclick="window.location.href='mailto:info@uzg-transporte.de'" style="cursor: pointer;"><i class="bi bi-envelope-fill"></i> <span class="text-body"> info@uzg-transporte.de</span></li>
+						<li class="contact" onclick="window.location.href='tel:04832 9793570'" style="cursor: pointer;"><i class="bi bi-telephone-fill"></i> <span class="text-body"> 04832 9793570</span></li>
+						<li class="contact" onclick="window.location.href='tel:01749684891'" style="cursor: pointer;"><i class="bi bi-phone-fill"></i> <span class="text-body"> 01749684891</span></li>
+					</ul>
+				</div>
+				<div class="col-md-4 py-3 col-sm-12 order-2 order-md-2">
+					<a href="https://uzg-transporte.de/"><img src="/resource/LOGO.webp" alt="Logo Image" class="img-fluid"></a>
+				</div>
+				
+				<div class="col-md-4 col-12 order-1 order-md-3 rating-wrapper">
+					<!-- 
+						<a href="https://www.facebook.com/profile.php?id=100063890331425&sk=reviews"><img src="/resource/Reviews.webp" alt="Logo Image" class="d-none d-md-block float-none float-md-end"></a>
+						<a href="https://www.facebook.com/profile.php?id=100063890331425&sk=reviews"><img src="/resource/review-small.webp" alt="Logo Image" class="d-md-none float-none float-md-end"></a>
+					-->
+					<h2>
+						<p><span id="rating"></span> / 5.0 <i class="bi bi-star-fill"></i></p>
+					</h2>
+					<a href="https://maps.app.goo.gl/t5P1abNVfyyyF9Fv8">Alle <span id="ratingCount"></span> Bewertungen ansehen</a>
+				</div>
+			</div>
+	
+			<div class="row position-relative">
+				<div class="col position-absolute" style="background-color: #1F6C7C; margin-bottom: 10px; height: 10px;"></div>
+				<div class="triangle2 col"></div>
+				<div class="triangle col position-absolute"></div>	
+			</div>
+		</div>
+	
+		<!-- background image and banner -->
+		<div class="parallax_section">
+			<div class="parallax_bg" style="background-image: url(/resource/backgroundimage.webp);"></div>
+			<div class="p-3 banner fs-2 text-center">
+			    Umzüge und Transporte - Heide, Dithmarschen, Schleswig-Holstein, Deutschland
+			</div>
+		</div>
+
+		<!-- blue line -->
+		<div class="mb-4 navbar navbar-expand-lg" style="width: 100%; height: auto; min-height:10px; background-color: #1F6C7C; transform: translateY(-1px);"></div>

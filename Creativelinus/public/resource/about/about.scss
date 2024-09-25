@@ -1,0 +1,23 @@
+.about {
+    height: 100vh;
+
+    .contentWrapper {
+        height: 100%;
+        max-width: 1366px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 100px;
+
+        .portrait {
+            width: 25%;
+            height: auto;
+            border-radius: 50px;
+            background: linear-gradient(-45deg, rgba(52, 6, 203, 0.5) 0%, rgba(158, 3, 96, 0.5) 100%);
+            filter: drop-shadow(0px 0px 20px rgb(0, 0, 0));
+        }
+    }
+}

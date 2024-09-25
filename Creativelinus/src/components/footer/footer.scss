@@ -1,0 +1,47 @@
+.footer {
+    height: auto;
+    box-shadow: inset 0px 0px 50px 5px rgb(0, 0, 0);
+    text-align: center;
+    padding: 40px;
+
+    h2 {
+        width: 100%;
+    }
+
+    .legal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+    }
+
+    a {
+        position: relative;
+        text-decoration: none;
+        color: white;
+    }
+
+    a:before {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        height: 3px;
+        width: 0;
+        background-color: white;
+        border-radius: 3px;
+        transition: width 0.3s ease;
+    }
+
+    a:hover:before {
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .address {
+        width: 100%;
+    }
+}

